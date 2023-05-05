@@ -4,10 +4,7 @@ import StarRatingComponent from 'react-star-rating-component';
 
 const MovieCard = ({movie}) => {
   return (
-    // <div>
-    //   <h2>{movie.title}</h2>
-
-
+    
       <div class="hero-container">
 		<div class="main-container">
 			<div class="poster-container">
@@ -24,9 +21,7 @@ const MovieCard = ({movie}) => {
           starCount={5}
           value={movie.rate}
         />
-					{/* <p class="ticket__current-price">Rating is {movie.rating}</p> */}
-					{/* <p class="ticket__old-price">$44.99</p> */}
-					{/* <button class="ticket__buy-btn">Buy now</button> */}
+					
 				</div>
 			</div>
 		</div>

@@ -50,6 +50,7 @@
 	top: 20px;
 	box-shadow: 0 5px 20px 3px rgba(0, 0, 0, 0.6);
 	opacity: 0;
+	font-size: 35px;
 }
 
 .main-container:hover .ticket-container {

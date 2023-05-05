@@ -84,7 +84,7 @@ const AddMovie = ({ addNewMovie }) => {
             </div>
             <div>
               <button class="modal__btn" onClick={handleSubmit}>
-                Submit Contact
+                Submit Movie
               </button>
             </div>
           </form>

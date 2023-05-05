@@ -9,18 +9,17 @@ const Search = ({getInput, getRate,rating }) => {
   }
 
   return (
-    <div style={{position: "fixed", top: 150, right: 10, marginTop: 10, }}>
+    <div style={{position: "fixed", top: 150, right: 10, marginTop: 10, fontSize: "30px"}}>
       
         <input 
         className='modal__btn'
         style={{ 
-        width: 200, height:30, marginRight:30 ,borderColor: "black", marginButtom:20 }}
+        borderColor: "black"}}
         type="search"
         placeholder="Search Movie Name"
         onChange={(e) => getInput(e.target.value)}
       /><br></br>
-      <StarRatingComponent style={{ fontSize: 50
-           }}
+      <StarRatingComponent
           name="rate1" 
           starCount={5}
           value={rating}

@@ -3,7 +3,6 @@ import MoviesList from "./MoviesList";
 import Search from "./Search";
 import AddMovie from "./AddMovie";
 import "./App.css";
-// import "./style.css";
 
 function App() {
   const [movies, setMovies] = useState([
