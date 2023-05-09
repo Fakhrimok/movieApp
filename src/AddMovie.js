@@ -82,6 +82,18 @@ const AddMovie = ({ addNewMovie }) => {
                 onChange={handleChange}
               />
             </div>
+
+            <div>
+              <input class="modal__btn"
+               style={{color:"black", backgroundColor:"white", margin:5}}
+                type="url"
+                name="trailer"
+                placeholder="trailer"
+                value={newMovie.trailer}
+                onChange={handleChange}
+              />
+            </div>
+
             <div>
               <button class="modal__btn" onClick={handleSubmit}>
                 Submit Movie
